@@ -37,5 +37,11 @@ public class StepDefLogin {
         
     }
 
+    @Then("^Verify home info$")
+    public void Verifyhomeinfo() throws Throwable {
+    	System.out.println("THen execued");
+    	
+    }
+
 
 }

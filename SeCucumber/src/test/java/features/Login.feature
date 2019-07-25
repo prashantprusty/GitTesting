@@ -5,6 +5,7 @@ Given User is on the landing page
 When User login with valid <UName> and <Pass>
 Then Login sucessfull
 And Home page displayed
+Then Verify home info
 
 Examples:
 |UName 		| Pass  |
